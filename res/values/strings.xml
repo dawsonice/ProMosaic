@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">专业打码</string>
+    <string name="load">LOAD</string>
+    <string name="clear">CLEAR</string>
+    <string name="save">SAVE</string>
+    <string name="about">ABOUT</string>
+    <string name="choose_image">Choose Image</string>
+
+</resources>
