@@ -6,6 +6,9 @@
     <color name="black">#FF000000</color>
     <color name="blue">#FF0000FF</color>
     <color name="green">#FF00FF00</color>
+    <color name="link">#E02A5CAA</color>
+    <color name="title">#FF29B5EA</color>
+    <color name="silver">#FFA1A3A6</color>
     <color name="white">#FFFFFFFF</color>
     <color name="grey_0">#80F6F6F6</color>
     <color name="grey_1">#FFE3E3E3</color>
@@ -14,5 +17,6 @@
     <color name="grey_4">#FF999999</color>
     <color name="grey_5">#FF828282</color>
     <color name="grey_6">#FF4D4D4D</color>
+    <color name="grey_7">#804D4D4D</color>
 
 </resources>

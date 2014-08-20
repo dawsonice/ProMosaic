@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <drawable name="menu_normal">#f22e3132</drawable>
+    <drawable name="menu_pressed">#26000000</drawable>
+    <drawable name="menu_divider">#ff191b1c</drawable>
+    <drawable name="item_selected">#600000FF</drawable>
+    <drawable name="transparent">#00000000</drawable>
+
+</resources>

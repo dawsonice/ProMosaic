@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_2"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:background="@color/grey_6"
+        android:gravity="center"
+        android:text="@string/about"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="120dp"
+        android:background="@color/grey_3" />
+
+    <Button
+        android:id="@+id/bt_github"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/about_selector"
+        android:gravity="left|center"
+        android:paddingLeft="20dp"
+        android:text="@string/github"
+        android:textColor="@color/link"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey_3" />
+
+    <Button
+        android:id="@+id/bt_email"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/about_selector"
+        android:gravity="left|center"
+        android:paddingLeft="20dp"
+        android:text="@string/email"
+        android:textColor="@color/link"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey_3" />
+
+    <Button
+        android:id="@+id/bt_qq"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/about_selector"
+        android:gravity="left|center"
+        android:paddingLeft="20dp"
+        android:text="@string/qq"
+        android:textColor="@color/link"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey_3" />
+
+</LinearLayout>

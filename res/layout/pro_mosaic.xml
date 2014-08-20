@@ -18,7 +18,7 @@
             android:layout_height="40dp"
             android:layout_margin="4dp"
             android:layout_weight="1"
-            android:background="@drawable/button_selector"
+            android:background="@drawable/option_selector"
             android:text="@string/load" />
 
         <Button
@@ -27,8 +27,17 @@
             android:layout_height="40dp"
             android:layout_margin="4dp"
             android:layout_weight="1"
-            android:background="@drawable/button_selector"
+            android:background="@drawable/option_selector"
             android:text="@string/clear" />
+
+        <Button
+            android:id="@+id/bt_erase"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/option_selector"
+            android:text="@string/erase" />
 
         <Button
             android:id="@+id/bt_save"
@@ -36,8 +45,26 @@
             android:layout_height="40dp"
             android:layout_margin="4dp"
             android:layout_weight="1"
-            android:background="@drawable/button_selector"
+            android:background="@drawable/option_selector"
             android:text="@string/save" />
+
+        <Button
+            android:id="@+id/bt_mode"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/option_selector"
+            android:text="@string/finger_mode" />
+
+        <Button
+            android:id="@+id/bt_effect"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/option_selector"
+            android:text="@string/effect" />
 
         <Button
             android:id="@+id/bt_about"
@@ -45,11 +72,11 @@
             android:layout_height="40dp"
             android:layout_margin="4dp"
             android:layout_weight="1"
-            android:background="@drawable/button_selector"
+            android:background="@drawable/option_selector"
             android:text="@string/about" />
     </LinearLayout>
 
-    <me.dawson.promosaic.MosaicImage
+    <me.dawson.promosaic.MosaicView
         android:id="@+id/iv_content"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
